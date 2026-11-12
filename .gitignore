@@ -1,3 +1,2 @@
-# Local-only launcher; GitHub Pages serves the files itself
-Play.bat
+# Node server used only for previews on this PC; Play.bat uses serve.ps1 instead
 server.js
