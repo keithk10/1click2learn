@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Game Presentation</title>
 <style>
-  html, body { margin: 0; height: 100%; background: #000; }
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
   body { display: flex; align-items: center; justify-content: center; }
   /* Keep the original 825x600 aspect ratio, scaled to fit the window */
   #player { width: min(100vw, calc(100vh * 825 / 600)); aspect-ratio: 825 / 600; }
-  #player > * { width: 100%; height: 100%; }
+  #player > * { display: block; width: 100%; height: 100%; }
 </style>
 </head>
 <body>
