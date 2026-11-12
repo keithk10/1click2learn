@@ -1,0 +1,3 @@
+# Local-only launcher; GitHub Pages serves the files itself
+Play.bat
+server.js
